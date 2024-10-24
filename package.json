@@ -1,0 +1,38 @@
+{
+    "name": "react-three-fiber-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.jsx",
+    "devDependencies": {
+      "@react-three/fiber": "^8.17.7",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-scripts": "^5.0.1",
+      "three": "^0.168.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "overrides": {
+      "body-parser": "1.20.3",
+      "nth-check": ">=2.0.2",
+      "serve-static": "2.1.0",
+      "postcss": ">=8.4.31"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
